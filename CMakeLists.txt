@@ -1,7 +1,7 @@
 project(Eigen)
 
 cmake_minimum_required(VERSION 2.8.4)
-
+set(CMAKE_INSTALL_PREFIX /usr/eigen3)
 # guard against in-source builds
 
 if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
